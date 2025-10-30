@@ -6,6 +6,7 @@
 int main(int argc, char *argv[]) {
 	
 	int testscore[5];
+	int i;
 	
 	testscore[0] = 10;
 	testscore[1] = 20;
@@ -13,7 +14,8 @@ int main(int argc, char *argv[]) {
 	testscore[3] = 40;
 	testscore[4] = 50;
 	
-
-	
+	for(i=0;i<5;i++)
+		printf("grade[%i] = %i\n", i, testscore[i]);
+			
 	return 0;
 }
