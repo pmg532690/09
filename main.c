@@ -7,5 +7,13 @@ int main(int argc, char *argv[]) {
 	
 	int testscore[5];
 	
+	testscore[0] = 10;
+	testscore[1] = 20;
+	testscore[2] = 30;
+	testscore[3] = 40;
+	testscore[4] = 50;
+	
+
+	
 	return 0;
 }
